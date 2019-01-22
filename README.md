@@ -16,10 +16,10 @@ In this repository you can find some of my works created for practice purposes.
 
 
 |HTML||
-|--------|
+|--------|--------|
 |lihtneprojekt|testing static html creation + javascript calculator 
 
 
 |Web Design|
-|----------|
-|First design https://www.figma.com/proto/Ck1QsuOdKKDoDe2Bo67ila5v/First-design?node-id=3%3A68&scaling=min-zoom
+|----------|-------|
+|First design| https://www.figma.com/proto/Ck1QsuOdKKDoDe2Bo67ila5v/First-design?node-id=3%3A68&scaling=min-zoom |
