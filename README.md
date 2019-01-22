@@ -20,6 +20,6 @@ In this repository you can find some of my works created for practice purposes.
 |lihtneprojekt|testing static html creation + javascript calculator 
 
 
-|Web Design|
+|Web Design|Link|
 |----------|-------|
 |First design| https://www.figma.com/proto/Ck1QsuOdKKDoDe2Bo67ila5v/First-design?node-id=3%3A68&scaling=min-zoom |
