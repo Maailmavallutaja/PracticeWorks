@@ -170,3 +170,24 @@ footer a {
 	padding-top:40px;
 
 }
+thead td p{
+	font-weight: 700;
+	color: darkred;
+}
+tbody tr td{
+	color: darkred;
+}
+#rahad{
+	background-color: teal;
+	opacity: 0.9;
+	font-family: Arial, Sans-Sarif;
+}
+#rahad tr td{
+	min-width: 2em;
+	min-height: 2em;
+}
+
+form td{
+	background-color: aquamarine;
+	border: 2px solid darkcyan;
+}

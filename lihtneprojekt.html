@@ -23,10 +23,49 @@
 					<h3><span>Aeg</span>#__</h3>
 				</div>
 				<div>
-					<img src="tekstipilt.png">
-					<h1 class="title">See on pealkiri</h1>
-					<p class="Paragrahv">Paragrahv</p>
-					<h3 class="texttitle">vahepealkiri</h3>
+					<section id="paycheckcalculation">
+						<form>
+							<table>
+								<thead>
+									<tr>
+										<td><p>Item</p></td>
+										<td><p>Input</p></td>
+								</tr>
+								</thead>
+						
+							<tbody>
+						    	<tr><td>Tunnid</td><td><input type="text" id="tunnid"></td></tr>
+						    	<tr><td>Tunnihinne</td><td><input type="number" id="tunnihind"></td></tr>
+						    	<tr><td>Kilega tellingu ruute</td><td><input type="number" id="kgaruudud"></td></tr>
+						    	<tr><td>Kileta tellingu ruute</td><td><input type="number" id="ktaruudud"></td></tr>
+						    	<tr><td>Kilega tellingu hinne</td><td><input type="number" id="ktaruuduhind"></td></tr>
+						    	<tr><td>Kileta tellingu hinne</td><td><input type="number" id="kgaruuduhind"></td></tr>
+						    	<tr><td>Sääsuoja ruute</td><td><input type="number" id="sruudud"></td></tr>
+						    	<tr><td>Sääsuoja ruudu hinne</td><td><input type="number" id="sruuduhind"></td></tr>
+								<tr><td>Vero %</td><td><input type="number" id="verop"></td></tr>
+							</tbody>
+							</table>
+						</form>
+						    
+						    <table id="rahad">
+						    		<tr><td>Kilega ruudud</td><td id="ktaruuduraha"></td></tr>
+						    		<tr><td>Kileta ruudud</td><td id="kgaruuduraha"></td></tr>
+						    		<tr><td>Sääsuoja ruudud</td><td id="sruuduraha"></td></tr>
+						    		<tr><td>Ruutude raha kokku</td><td id="ruuduraha"></td></tr>
+						    		<tr><td>Tunniraha</td><td id="tunniraha"></td></tr>
+						    		<tr><td>Põhipalk</td><td id="pohipalk"></td></tr>
+						    		<tr><td>Työajanlyhennys</td><td id="tyolraha"></td></tr>
+						    		<tr><td>Puhkuse raha</td><td id="lomaraha"></td></tr>
+						    		<tr><td>Brutopalk</td><td id="brutopalk"></td></tr>
+						    		<tr><td>veromaks</td><td id="veromaks"></td></tr>
+						    		<tr><td>Töötumaks</td><td id="tootumaks"></td></tr>
+						    		<tr><td>Töötukindlustusmaks</td><td id="tootukindlustus"></td></tr>
+						    		<tr><td>Maksud kokku</td><td id="maksud"></td></tr>
+						    		<tr><td>Netopalk</td><td id="netopalk"></td></tr>
+						    </table>
+						    
+						    <button type="button" onclick="arvutapalk()">Kalkuleeri</button>
+						</section>
 				</div>
 			</div>
 
@@ -42,5 +81,6 @@
 			</div>
 		</footer>
 		</div>
+		<script src="main.js"></script>
 	</body>
 </html>
